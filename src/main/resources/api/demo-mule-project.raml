@@ -1,0 +1,15 @@
+#%RAML 1.0
+title: demo-mule-project
+description: This is a demo project to implement mail raml project
+version: 1.0
+/demo:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "Message": "Its my first Project",
+                "SecondMesage": "Needs to check by mocking my API"
+              }
